@@ -1,0 +1,11 @@
+sudo service network-manager stop
+sudo rfkill unblock all
+sudo service network-manager start
+------------------------------------------
+sudo nano /etc/resolv.conf
+then chang nameserver into 8.8.8.8
+u can also re-install network manager $sudo apt-get install network-manager
+upgrade $sudo apt-get upgrade network-manager
+------------------------------------------
+u can show internet details
+$ lshw -C network
