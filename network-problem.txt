@@ -9,3 +9,5 @@ upgrade $sudo apt-get upgrade network-manager
 ------------------------------------------
 u can show internet details
 $ lshw -C network
+
+help me cause I donno how to solve this shitty problem
